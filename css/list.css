@@ -1,0 +1,179 @@
+.nav-content>li>#nav-bookshop{
+	background: #A86107;
+}
+
+.site-nav{
+	width: 100%;
+	height: 45px;
+	line-height: 45px;
+	border-bottom: 1px solid #ccc;
+}
+
+.category,.publisher,.filter-title{
+	height: 45px;
+	line-height: 45px;
+	border-bottom: 1px dashed #ccc;
+}
+
+.category>span,.publisher>span{
+	display: inline-block;
+	width: 60px;
+}
+
+.category>a,.publisher>a{
+	display: inline-block;
+	margin-right: 10px;
+	text-decoration: none;
+}
+
+.category>a:hover,.publisher>a:hover{
+	color: #f00;
+}
+
+.category>.actived,.publisher>.actived{
+	color: #f00;
+}
+
+/*.booklist-title{
+	height: 45px;
+	line-height: 45px;
+}*/
+
+.booklist{
+	margin-top: 20px;
+}
+
+.booklist-single-book{
+	float: left;
+	width: 210px;
+	height: 335px;
+	border: 1px solid #C0C0C0;
+	box-sizing: border-box;
+	border-radius: 5px;
+	color: #666;
+	cursor: pointer;
+	margin-bottom: 20px;
+	margin-right: 30px;
+}
+
+.booklist>a:nth-child(5n){
+	margin-right: 0px;
+}
+
+.booklist-single-book:hover{
+	text-decoration: none;
+	box-shadow: 4px 3px 5px #ccc;
+	color: #666;
+}
+
+.booklist-single-book-name{
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	border-bottom: 2px solid #ccc;
+	font-weight: bold;
+}
+
+.booklist-single-book-image{
+	width: 100%；
+	height:150px;
+	text-align: center;
+	line-height: 150px;
+	margin: 10px 0;
+}
+
+.booklist-single-book-image>img{
+	width: 140px
+}
+
+.section-single-book-authorName{
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 14px;
+}
+
+.booklist-single-book-info{
+	text-indent: 22px;
+	font-size: 13px;
+	line-height: 25px;
+}
+
+.no-book-tip{
+	width: 100%;
+	height:210px;
+	text-align: center;
+	line-height: 210px;
+	color: #C9302C;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.page-code{
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+
+}
+
+.page-code>a{
+	display: inline-block;
+	width: 40px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	border: 1px solid #999;
+	color: #999;
+}
+
+.page-code>a:hover{
+	background: #A86107;
+	color: #fff;
+	text-decoration: none;
+}
+
+.page-code>.actived{
+	background: #A86107;
+	color: #fff;
+}
+
+.booklist-single-book-btns{
+	width: 100%;
+	height: 25px;
+	text-align: right;;
+	line-height: 25px;
+	font-size: 16px;
+	margin-top: -10px;
+}
+
+.booklist-single-book-btns>span{
+	padding: 5px 10px;
+	font-size: 19px;
+	color: #999;
+}
+
+.add-tip-container{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0,0,0,0.2);
+	display: none;
+}
+
+.add-tip-content{
+	position: absolute;
+	top: 195px;
+	left: 50%;
+	width: 280px;
+	height: 140px;
+	margin-left: -140px;
+	background: #fff;
+	border-radius: 10px;
+	text-align: center;
+	line-height: 140px;
+	font-size: 18px;
+}

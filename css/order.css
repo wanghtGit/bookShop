@@ -1,0 +1,80 @@
+.link>.my-order{
+	color: #f00;
+}
+
+.orders{
+	margin-top: 20px
+}
+
+.order-nav{
+	background: #fff;
+}
+
+.tab-content{
+	min-height: 446px;
+}
+
+.order-content{
+	border: 1px solid #DDDDDD;
+	border-top: 0;
+}
+
+.single-order{
+	background: #f8f8f8;
+	margin-bottom: 20px;
+	border-top: 1px solid #DDDDDD;
+	border-bottom: 1px solid #DDDDDD;
+}
+
+.single-order>div{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.single-order img{
+	width: 80px;
+}
+
+.single-order-orderinfo{
+	height: 30px;
+	line-height: 45px;
+}
+
+.single-order>.single-order-bookinfo{
+	margin: 5px auto;
+	padding: 10px 0;
+	border-top: 1px solid #DDDDDD;
+	border-bottom: 1px solid #DDDDDD;
+}
+
+.single-order-bookinfo>div{
+	display: inline-block;
+	width: 16%;
+}
+
+.single-order-bookinfo>div:last-child{
+	text-align: right;
+}
+
+.single-order-operate{
+	height: 45px;
+	line-height: 45px;
+}
+
+.continue-borrow-btn{
+	background: #BB5E00;
+	color: #fff;
+}
+
+.continue-borrow-btn:hover{
+	background: #D26900;
+	color: #fff;
+}
+
+.empty-order-tip{
+	height: 180px;
+	line-height: 180px;
+	text-align: center;
+	font-size: 16px;
+	color: #A86107;
+}

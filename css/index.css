@@ -1,0 +1,91 @@
+.nav-content>li>#nav-index{
+	background: #A86107;
+}
+
+.index-content{
+	margin-top: 15px;
+}
+
+#ad-img{
+	width: 100%;
+	height: 380px;
+	cursor: pointer;
+}
+
+.section-title{
+	position: relative;
+	width: 100%;
+	height: 70px;
+	margin: 15px 0;
+}
+
+.section-title-bg{
+	display: inline-block;
+	width: 100%;
+	height: 10px;
+	position: absolute;
+	top: 30px;
+	left: 0;
+	background: url('../images/titlebg.png');
+}
+
+.section-name{
+	position: absolute;
+	top: 0;
+	left: 43%;
+	right: 43%;
+	height: 70px;
+	text-align: center;
+	line-height: 70px;
+	background: #fff;
+	margin: 0;
+}
+
+.section-books{
+	display: flex;
+	justify-content: space-between;
+}
+
+.section-single-book{
+	width: 200px;
+	height: 270px;
+	border: 1px solid #C0C0C0;
+	box-sizing: border-box;
+	border-radius: 5px;
+	color: #666;
+	cursor: pointer;
+}
+
+.section-single-book:hover{
+	text-decoration: none;
+	box-shadow: 4px 3px 5px #ccc;
+}
+
+.section-single-book-name{
+	width: 100%;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	border-bottom: 2px solid #ccc;
+	font-weight: bold;
+}
+
+.section-single-book-authorName{
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	font-size: 14px;
+}
+
+.section-single-book-image{
+	width: 100%；
+	height:200px;
+	text-align: center;
+	line-height: 200px;
+}
+
+.section-single-book-image>img{
+	width: 140px;
+
+}
